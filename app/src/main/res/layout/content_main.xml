@@ -57,13 +57,24 @@
 
     </RadioGroup>
 
+    <Button
+        android:id="@+id/testebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="teste" />
+
     <com.udacity.LoadingButton
         android:id="@+id/custom_button"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_margin="20dp"
+        android:textAlignment="center"
+        app:defaultBackgroundColor="@color/colorPrimaryDark"
+        app:iconColor="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:progressBackgroundColor="@color/colorPrimary"
+        app:textSize="20sp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

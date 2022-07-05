@@ -18,8 +18,8 @@ class LoadingButton @JvmOverloads constructor(context: Context, attrs: Attribute
     private var widthSize = 0
     private var heightSize = 0
 
-    private var defaultBackgroundColor = getContext().getColor(R.color.colorPrimaryDark)
-    private var progressBackgroundColor = getContext().getColor(R.color.colorPrimary)
+    private var defaultBackgroundColor = getContext().getColor(R.color.colorPrimary)
+    private var progressBackgroundColor = getContext().getColor(R.color.colorPrimaryDark)
     private var buttonIconColor = getContext().getColor(R.color.colorAccent)
     private var buttonTextColor = getContext().getColor(R.color.white)
     private var buttonTextSize = TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_SP, 20.0f, Resources.getSystem().displayMetrics)

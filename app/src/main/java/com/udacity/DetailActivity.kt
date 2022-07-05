@@ -28,7 +28,6 @@ class DetailActivity : AppCompatActivity() {
         val downloadedRepo = intent.getStringExtra(REPO_KEY)
         val downloadSucceeded = intent.getBooleanExtra(REPO_DOWNLOAD_SUCCESS, false)
         val repoName = downloadedRepo?.split("/")?.get(3)
-        Log.d(TAG, "onCreate: repo: $downloadedRepo  succeeded: $downloadSucceeded   decoded: ${repoName.toString()}  name: $repoName")
 
         // Populate the fieds with the received data
         downloaded_file_name_tV.text  = when(repoName) {
